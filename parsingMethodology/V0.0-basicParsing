@@ -1,0 +1,16 @@
+V0 basic Parsing :
+
+Stratégie :
+	Le parsing le plus basique consiste à faire une colonne par mot présent dans notre document, et de manière binaire marquer la présence ou non.
+
+
+Avantages : 
+	- Parsing relativement facile à faire;
+	- On ne perd pas de données; pas de pré-traitement à effectuer; 
+	- On traite l'ensemble des données on ne risque pas de manquer des mots intéressant.
+
+
+Défaults : 
+	- Trés lourd nombre d'attributs total = nombres de mot présent x 10 000; beaucoup d'informations non-interessant qui risque de fausser les résultats par exemple les mot "the" "when" ... ; 
+	- Casiment impossible de nettoyer les données, beaucoup trop de mots présent cela prendrai donc un temps trop important de les trier; 
+	- Aucune analyse de menée par rapport a l'ordre et la répétition des mots si on a "i don't like" le mot like sera enregistré séparément et pourra donc être interprété de maniére positive alors que la phrase qui le contenais était en réalité négative.

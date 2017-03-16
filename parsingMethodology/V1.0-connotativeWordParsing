@@ -1,0 +1,17 @@
+V1 Parsing with connotative words :
+
+Stratégie :
+	On cherche un dictionnaire contenant un maximum de mot qui ont une connotation (peut importe qu'elle soit péjorative ou méliorative)
+
+Avantages :
+	- Parsing pas trop complexe.
+	- Peu théoriquement fournir des résultat cohérent.
+	- Pas de pré-traitement à faire il est déjà plus ou moins effectué du fait qu'on est uniquement les mots connotatifs.
+	- Traitement probablement rapide car jeux de données relativement léger.
+
+
+Défaults :
+	- On ne prend pas en compte l'ensemble de la phrase, si un mot connotatif subit une négation on en sait rien on sait juste qu'il est présent. 
+	- On ne prend pas tout les mots en compte beaucoup d'information peut-être perdu.
+	- On ne prend pas en compte le nombre de répétition d'un mot on dit juste si il est présent ou pas peut causer des problème car si quelqu'un utilise toujours le mot dislike pour dire qu'il n'aime pas mais utilise à un autre moment le mot love et le mot beautifull son commentaire risque d'être concidairé comme positif alors qu'il est négatif.
+	
