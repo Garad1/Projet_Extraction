@@ -37,10 +37,10 @@ def analyse(dataset,posW,negW):
                 pos=pos+1
             elif negatif(negW, w):
                 neg=neg+1
-        if pos>neg:
+        if pos>neg+2:
            # print(i,": avis positif ( ",pos," vs",neg,")")
             Out.write("positive\n")
-        elif neg>pos:
+        elif neg>pos+2:
             #print(i,": avis negatif ( ",pos," vs", neg,")")
             Out.write("negative\n")
         else:
