@@ -10,6 +10,7 @@ def combine(data_path, result_path, output_path, nb_lines):
 
     while True:
         data_line = data.readline()
+        output.write(data_line)
         if data_line.endswith(',?\n'):
             break
 
