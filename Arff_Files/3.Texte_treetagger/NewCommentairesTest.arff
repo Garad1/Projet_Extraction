@@ -1,7 +1,7 @@
 @RELATION comment
 @ATTRIBUTE comm string
-@ATTRIBUTE ratiopos numeric
-@ATTRIBUTE rationeg numeric
+@ATTRIBUTE ratio pos numeric
+@ATTRIBUTE ratio neg numeric
 @attribute classe {-1,1}
 @data
 "one allow 0-10 awful even here lauded written one black left asked dan7 graphic meant said 7 24 probably meant 24 missed up Perhaps worst eschatological Biblically unsound many espoused end-time such faulty understand Go Biblical ",0, 100,?
@@ -4003,3 +4003,4 @@
 "got long waiting anticipating greatly arrived worst plodding as well well screaming babbling Dreading very very pleasantly surprised surprisingly watchable even filming did make feel going bust two quite good being acted quasi-romantic saw hardly surprised one two including very good doing mostly get yelled second very do seemed way too suspense-horror shot either really most sincerely dead lay there burbling rather long just repeatedly cry just definitely worth ",50, 49,?
 "entertaining acting average likeable skilled martial proto-Jackie watch austere particularly impressive only glaring little confused various not as fully fleshed-out one wish judged first foremost definitely show worthy enjoyable low-budget Not up good definitely worth 8-10 1987 saw predictably poorly dubbed lacked full ",50, 49,?
 "very entertaining obviously great faithfully recreate classic doing watched appreciated not standard predictable only slightest Obviously different amateur only criticize rate more important entertained most never enjoyed put faithful classic found very entertaining made easy overlook ",50, 49,?
+"Hi all about 6 supposed quite obsessed hopefully not as much central central real called committed 1924 famous played beautiful played Instead resigning simply walked never return social central unfortunately more serious sometimes very big sometimes end imbalanced other major also very disturbed many depicted as Italian actually sometimes employed going 128 just 2 final also realistic other fascinating done explore winning enjoy ",50, 49,?

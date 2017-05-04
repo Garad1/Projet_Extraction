@@ -36,7 +36,7 @@ def PNarff(fich):
 
     for pn in PN:
         i = i + 1
-        if i < 4000:
+        if i <= 4000:
             line = "\"%s\",%s,?\n" % (Avis.readline().replace("\n", "").replace("\"", "'"),pn[:len(pn)-1])
             A.write(line)
 
