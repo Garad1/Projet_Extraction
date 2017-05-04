@@ -20,7 +20,27 @@ def main(fich):
 
     return 1
 
+def PNarff(fich):
+    print ("hello")
+    Avis = open(fich, 'r')
+    A = open("NewCommentairesTest.arff", 'w')
+    PN=open("RatioOutTest.txt","r")
+
+    A.write("@RELATION comment\n")
+    A.write("@ATTRIBUTE comm string\n")
+    A.write("@ATTRIBUTE ratio pos numeric\n")
+    A.write("@ATTRIBUTE ratio neg numeric\n")
+    A.write("@attribute classe {-1,1}\n")
+    A.write("@data\n")
+    i = 0
+
+    for pn in PN:
+        i = i + 1
+        if i < 4000:
+            line = "\"%s\",%s,?\n" % (Avis.readline().replace("\n", "").replace("\"", "'"),pn[:len(pn)-1])
+            A.write(line)
+
 
 if __name__ == '__main__':
     print("hey")
-    main(sys.argv[1])
+    PNarff(sys.argv[1])

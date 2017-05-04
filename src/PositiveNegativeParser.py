@@ -58,7 +58,7 @@ def analyse(dataset,posW,negW):
 def analyseTTG(dataset, posW, negW):
     liste_not=["not","don't","haven't","doesn't","wasn't","isn't","weren't","hasn't","won't","wouldn't","hadn't","can't","didn't","n't"]
     D = open(dataset, 'r')
-    Out = open("RatioOut.txt", 'a')
+    Out = open("RatioOutTest.txt", 'a')
 
     pos = 0
     neg = 0
@@ -81,7 +81,7 @@ def analyseTTG(dataset, posW, negW):
                 elif negatif(negW, words[i]):
                     neg = neg + 1
 
-        Out.write(str(int(truediv(pos,(pos+neg))*100))+" "+str(int(truediv(neg,(pos+neg))*100)))
+        Out.write(str(int(truediv(pos,(pos+neg))*100))+", "+str(int(truediv(neg,(pos+neg))*100))+"\n")
 
 
     return 1
@@ -142,4 +142,4 @@ def main():
     return 1
 
 if __name__ == '__main__':
-    moyenne("Ratio2Out.txt")
+    main()

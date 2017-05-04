@@ -17,7 +17,7 @@ import treetaggerwrapper
 def Tagger(dataset):
     # ouverture des fichiers
     D = open(dataset, 'r')
-    Tag = open("NewDataTAG.txt", 'w')
+    Tag = open("NewDataTAGtest.txt", 'w')
 
     # liste des tags a prendre en concideration
     ListeTags = ["JJ", "JJR", "JJS", "VV", "VVD", "VVG", "VVN", "RBR", "RBS", "UH", "RB", "CD"]

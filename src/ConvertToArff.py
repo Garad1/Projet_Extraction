@@ -9,7 +9,6 @@ def PNarff(fich):
 
     A.write("@RELATION comment\n")
     A.write("@ATTRIBUTE comm string\n")
-    A.write("@ATTRIBUTE comm string\n")
     A.write("@ATTRIBUTE ratio pos numeric\n")
     A.write("@ATTRIBUTE ratio neg numeric\n")
     A.write("@attribute classe {-1,1}\n")
