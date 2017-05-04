@@ -1,8 +1,7 @@
 @RELATION comment
 @ATTRIBUTE comm string
-@ATTRIBUTE comm string
-@ATTRIBUTE ratio pos numeric
-@ATTRIBUTE ratio neg numeric
+@ATTRIBUTE ratiopos numeric
+@ATTRIBUTE rationeg numeric
 @attribute classe {-1,1}
 @data
 "ended watching whole very long fascinated sheer difficult believe so many famous willingly participated maybe 1968 really so naive written confused Latin American Marxist actually good nice spiritual suddenly 20 compelled ease bad releasing Siberian then promptly allowed see secret Vatican papal portrayed most hillariously pious possibly imagine Meanwhile achieved usual socialist economic starving solve minor relentless shining start nuclear justly distribute Western capitalist poor good old worried just ask Chinese 15 old roll laughing 1968 thought looked Western pay quite logical n't always pay sacrifice too common altruistic social crowned entire Catholic world-wide feed poor Chinese thus nuclear Apart there also minor alas provide little redeem incredibly bad give three quite unlikely much more plausible Greek ",56, 43,-1

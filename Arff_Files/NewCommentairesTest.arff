@@ -1,7 +1,7 @@
 @RELATION comment
 @ATTRIBUTE comm string
-@ATTRIBUTE ratio pos numeric
-@ATTRIBUTE ratio neg numeric
+@ATTRIBUTE ratiopos numeric
+@ATTRIBUTE rationeg numeric
 @attribute classe {-1,1}
 @data
 "one allow 0-10 awful even here lauded written one black left asked dan7 graphic meant said 7 24 probably meant 24 missed up Perhaps worst eschatological Biblically unsound many espoused end-time such faulty understand Go Biblical ",0, 100,?
