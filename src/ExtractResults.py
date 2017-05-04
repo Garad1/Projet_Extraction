@@ -6,7 +6,7 @@ def extract(input_path, output_path):
     input_file = open(input_path, 'r')
     output_file = open(output_path, 'w')
 
-    input_file.readline()  # ignore la première ligne
+    input_file.readline()
 
     for line in input_file:
         line = line.split(",")
