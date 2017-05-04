@@ -17,10 +17,10 @@ import treetaggerwrapper
 def Tagger(dataset):
     # ouverture des fichiers
     D = open(dataset, 'r')
-    Tag = open("DataTAG.txt", 'w')
+    Tag = open("NewDataTAG.txt", 'w')
 
     # liste des tags a prendre en concideration
-    ListeTags = ["JJ", "JJR", "JJS", "VV", "VVD", "VVG", "VVN", "RBR", "RBS", "UH", "RB"]
+    ListeTags = ["JJ", "JJR", "JJS", "VV", "VVD", "VVG", "VVN", "RBR", "RBS", "UH", "RB", "CD"]
 
     # cnfig du wrapper
     tagger = treetaggerwrapper.TreeTagger(TAGLANG='en', TAGDIR='./TreeTagger', TAGINENC='utf-8', TAGOUTENC='utf-8')
@@ -31,6 +31,7 @@ def Tagger(dataset):
 
     for line in D:
         line = re.sub('http:\/\/[0-9a-zA-Z-_\.]*(\.[a-z]{0,9}\/?)?', "website ", line)
+        line=re.sub("\/","-",line)
         line = re.sub("[^a-zA-Z0-9 '-]", " ",line)
         tags = tagger.TagText(line.decode(encoding="utf-8"))
         for words in tags:
